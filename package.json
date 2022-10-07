@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/ashishtayal89/JourneyOptimizer#readme",
   "dependencies": {
-    "http-server": "^14.1.1",
-    "live-server": "^1.2.2"
+    "http-server": "^14.1.1"
   }
 }
