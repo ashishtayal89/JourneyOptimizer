@@ -69,3 +69,8 @@ html {
   z-index: 0;
   overflow: auto;
 }
+
+.blockdisabled {
+  background-color: #f0f2f9;
+  opacity: 0.5;
+}

@@ -80,5 +80,5 @@ I have looked at some of the open source libraries like dragflow, flowchart, rea
 
 # Future Plan
 
-Will optimize this to handle edge cases and make it more performant. Will release as a npm package one it has basic features ready.
+Will optimize this to handle edge cases and make it more performant. Will release as a npm package once it has basic features ready.
 Will also release a react+typescript version of this library going forward.
