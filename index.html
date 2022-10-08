@@ -2,8 +2,57 @@
 <html>
   <head>
     <title>Flowchart engine</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="flowchart.css" rel="stylesheet" type="text/css" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="flowchart.js"></script>
+    <script src="index.js"></script>
   </head>
   <body>
-    <div id="canvas">This is where the canvas will be created</div>
+    <div id="leftcard">
+      <div id="blocklist">
+        <div class="blockelem create-flowChart">
+            <input
+              type="hidden"
+              name="blockelemtype"
+              class="blockelemtype"
+              value="1"
+            />
+            <p class="blocktitle">1</p>
+        </div>
+        <div class="blockelem create-flowChart">
+            <input
+              type="hidden"
+              name="blockelemtype"
+              class="blockelemtype"
+              value="2"
+            />
+            <p class="blocktitle">2</p>
+        </div>
+        <div class="blockelem create-flowChart">
+            <input
+              type="hidden"
+              name="blockelemtype"
+              class="blockelemtype"
+              value="3"
+            />
+            <p class="blocktitle">3</p>
+        </div>
+        <div class="blockelem create-flowChart">
+          <input
+            type="hidden"
+            name="blockelemtype"
+            class="blockelemtype"
+            value="4"
+          />
+            <p class="blocktitle">4</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="canvas"></div>
   </body>
 </html>
